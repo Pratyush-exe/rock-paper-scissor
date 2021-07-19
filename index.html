@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <meta name="viewport" content="width=device-width, height=device-height">
+        <link rel="stylesheet" href="styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap" rel="stylesheet">
+        <head>
+            <h2 id="title">Rock Paper Scissor</h2>
+            <div id="menu-container">
+                <button id="reset">Reset</button>
+                <button id="github" onclick="window.open('https:/github.com/Pratyush-exe', '_blank')"><img id="github-logo" src="https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png"></button>
+                <button id="rules">Rules</button>
+            </div>
+            <div id="choice-container">
+                <div id="right-side-containers" class="containers">
+                    <img class="hands-img" id="your-choice" src="Images/rock.png">
+                    <h4 class="names" id="you">You</h3>
+                    <div class="buttons">
+                        <button class="button" id="rock-button-you">Rock</button>
+                        <button class="button" id="paper-button-you">Paper</button>
+                        <button class="button" id="scissor-button-you">Scissor</button>
+                    </div>
+                </div>
+                <div id="left-side-containers" class="containers">
+                    <img class="hands-img" id="his-choice" src="Images/rock.png">
+                    <h4 class="names" id="computer">Computer</h3>
+                    <div class="buttons">
+                        <button class="button" id="rock-button-comp">Rock</button>
+                        <button class="button" id="paper-button-comp">Paper</button>
+                        <button class="button" id="scissor-button-comp">Scissor</button>
+                    </div>
+                </div>
+            </div>
+            <div id="score">
+                <h4 id="score-text">0  -  0</h4>
+            </div>
+        </head>
+        <script src="scripts/script.js"></script>
+        <script src="confetti.js"></script>
+    </body>
+</html>
